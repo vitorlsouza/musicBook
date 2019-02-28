@@ -17,7 +17,10 @@
   },
   "plugins": ["react"],
   "rules": {
-    "react/jsx-filename-extension": ["error", { "extension": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".js", ".jsx"] }
+    ],
     "Import/prefer-default-export": "off"
   }
 }
